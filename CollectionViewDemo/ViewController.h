@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "MyLayout.h"
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, MyLayoutDelegate>
 
 @end
 

@@ -13,6 +13,7 @@
 		322580A6209592F500F70DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322580A5209592F500F70DBE /* Assets.xcassets */; };
 		322580A9209592F500F70DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322580A7209592F500F70DBE /* LaunchScreen.storyboard */; };
 		322580AC209592F500F70DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580AB209592F500F70DBE /* main.m */; };
+		322580B92095A8A600F70DBE /* MyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 322580B82095A8A600F70DBE /* MyLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		322580A8209592F500F70DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322580AA209592F500F70DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322580AB209592F500F70DBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		322580B72095A8A600F70DBE /* MyLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLayout.h; sourceTree = "<group>"; };
+		322580B82095A8A600F70DBE /* MyLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				322580A7209592F500F70DBE /* LaunchScreen.storyboard */,
 				322580AA209592F500F70DBE /* Info.plist */,
 				322580AB209592F500F70DBE /* main.m */,
+				322580B72095A8A600F70DBE /* MyLayout.h */,
+				322580B82095A8A600F70DBE /* MyLayout.m */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322580A1209592F100F70DBE /* ViewController.m in Sources */,
+				322580B92095A8A600F70DBE /* MyLayout.m in Sources */,
 				322580AC209592F500F70DBE /* main.m in Sources */,
 				3225809E209592F100F70DBE /* AppDelegate.m in Sources */,
 			);
